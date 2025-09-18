@@ -1,7 +1,7 @@
-🏠 Luxury Housing Sales Analysis – Bengaluru
+# 🏠 Luxury Housing Sales Analysis – Bengaluru
 This project presents an end-to-end data analysis and visualization of Bengaluru’s luxury housing market. Using real estate sales dataset of 100,000+ , it explores market trends, buyer preferences, and developer performance through interactive dashboards and insights.
 
-Key Features
+# Key Features
 
 * Micro-Market Trends → Track booking volumes quarter by quarter across different Bengaluru micro-markets.
 
@@ -15,7 +15,7 @@ Key Features
 
 * Amenity Impact → Correlate amenity scores with booking conversion rates.
 
-Tech Support
+# Tech Support
 
 * Data Processing → SQL, Python (Pandas, NumPy)
 
@@ -23,7 +23,7 @@ Tech Support
 
 * Database → PostgreSQL / MySQL
 
-Python – Data Preparation & Feature Engineering
+# Python – Data Preparation & Feature Engineering
 
 Cleaned 100k+ raw records (removed duplicates, nulls, and inconsistencies). 
 Filled missing numerical values using median or mean depending on the column (e.g., Unit_Size_Sqft → mean, Amenity_Score → mean, Ticket_Price_Cr → median). 
@@ -35,9 +35,9 @@ Price_per_Sqft = (Ticket_Price_Cr * 10000000) / Unit_Size_Sqft Quarter_Number = 
 
 📂 Output → A clean, analysis-ready dataset.
 
-SQL – Load Clean Data into RDBMS
+#  SQL – Load Clean Data into RDBMS
 
-Power BI – Visualization & Insights
+# Power BI – Visualization & Insights
 
 Connected dashboard to SQL database.
 
@@ -53,7 +53,7 @@ Market Share by Micro-Market
 
 Revenue per Sqft
 
-Professional Insights (from 100,000+ Records)
+#  Professional Insights (from 100,000+ Records)
 
 Builder Concentration
 
@@ -84,7 +84,7 @@ Strong demand in the ₹1.5–2.5 Cr ticket size range.
 Projects with eco-luxury features & smart amenities see 15–20% higher conversion.
 
 
-Results
+# Results
 
 100,000+ records cleaned, standardized, and stored in a relational SQL database.
 
